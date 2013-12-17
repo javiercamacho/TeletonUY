@@ -16,22 +16,6 @@
 @property (nonatomic, strong) UIColor *greenColor;
 @property (nonatomic, strong) UIColor *lightBlueColor;
 
-
-
-
-
-
-@property (nonatomic, strong) UIColor *teletonPrimaryColor;
-@property (nonatomic, strong) UIColor *teletonSecondaryColor;
-@property (nonatomic, strong) UIColor *primaryTextColor;
-@property (nonatomic, strong) UIColor *secondaryTextColor;
-@property (nonatomic, strong) UIColor *teletonButtonSelectionColor;
-@property (nonatomic, strong) UIColor *teletonButtonHighlightedColor;
-@property (nonatomic, strong) UIColor *teletonButtonNormalColor;
-
 + (Styles *)instance;
-
-- (void)applyStyleOnNavigationBar:(UINavigationBar *)navigationBar;
-- (void)applyStyleOnToolbar:(UIToolbar *)toolbar;
 
 @end

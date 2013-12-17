@@ -31,8 +31,6 @@
 		DC2D8912182033EF0034EEED /* iPad-Uruguay-2013.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2D8903182033EF0034EEED /* iPad-Uruguay-2013.png */; };
 		DC2D8913182033EF0034EEED /* iPhone-Contigo-Es-Posible.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2D8904182033EF0034EEED /* iPhone-Contigo-Es-Posible.png */; };
 		DC2D8919182037360034EEED /* Styles.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2D8918182037360034EEED /* Styles.m */; };
-		DC2D8923182070590034EEED /* MenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2D8922182070590034EEED /* MenuButton.m */; };
-		DC2D892618207E690034EEED /* CountdownView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2D892518207E690034EEED /* CountdownView.m */; };
 		DC6ACA5D1819929E00617E2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6ACA5C1819929E00617E2B /* Foundation.framework */; };
 		DC6ACA5F1819929E00617E2B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6ACA5E1819929E00617E2B /* CoreGraphics.framework */; };
 		DC6ACA611819929E00617E2B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6ACA601819929E00617E2B /* UIKit.framework */; };
@@ -127,10 +125,6 @@
 		DC2D8904182033EF0034EEED /* iPhone-Contigo-Es-Posible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone-Contigo-Es-Posible.png"; sourceTree = "<group>"; };
 		DC2D8917182037360034EEED /* Styles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Styles.h; sourceTree = "<group>"; };
 		DC2D8918182037360034EEED /* Styles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Styles.m; sourceTree = "<group>"; };
-		DC2D8921182070590034EEED /* MenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuButton.h; sourceTree = "<group>"; };
-		DC2D8922182070590034EEED /* MenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuButton.m; sourceTree = "<group>"; };
-		DC2D892418207E690034EEED /* CountdownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownView.h; sourceTree = "<group>"; };
-		DC2D892518207E690034EEED /* CountdownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownView.m; sourceTree = "<group>"; };
 		DC6ACA591819929E00617E2B /* Teleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6ACA5C1819929E00617E2B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DC6ACA5E1819929E00617E2B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -386,10 +380,6 @@
 			children = (
 				DCAAE51C181DE1FC0053B0CB /* TransparentButton.h */,
 				DCAAE51D181DE1FC0053B0CB /* TransparentButton.m */,
-				DC2D8921182070590034EEED /* MenuButton.h */,
-				DC2D8922182070590034EEED /* MenuButton.m */,
-				DC2D892418207E690034EEED /* CountdownView.h */,
-				DC2D892518207E690034EEED /* CountdownView.m */,
 				DC8AC4B818255F9500371FC1 /* MediaCell.h */,
 				DC8AC4B918255F9500371FC1 /* MediaCell.m */,
 				DCBD177C182A85CF000CAA22 /* ContactInfoCell.h */,
@@ -673,7 +663,6 @@
 				DCAAA6301819F19000654FF0 /* UIImage+ImageEffects.m in Sources */,
 				DCF95C62182E88B000B19A05 /* PhotoDetailCell.m in Sources */,
 				DCEA1980182282A2004DAC1D /* BaseViewController.m in Sources */,
-				DC2D8923182070590034EEED /* MenuButton.m in Sources */,
 				DCAAA60F1819CD7400654FF0 /* DonateController.m in Sources */,
 				DCEA198B1822E0E7004DAC1D /* ShrinkAnimationController.m in Sources */,
 				DCBFFD6A182BBB5C001E745F /* TeletonDoubleLabel.m in Sources */,
@@ -698,7 +687,6 @@
 				DCAAA6241819D6E600654FF0 /* Config.m in Sources */,
 				DCBD1783182A876F000CAA22 /* Contact.m in Sources */,
 				DC6ACA92181993E900617E2B /* HomeViewController.m in Sources */,
-				DC2D892618207E690034EEED /* CountdownView.m in Sources */,
 				DC6ACA961819941400617E2B /* AppDelegate.m in Sources */,
 				DC789B63184BD03000DA659F /* HomeButton.m in Sources */,
 				DCAAE51E181DE1FC0053B0CB /* TransparentButton.m in Sources */,
