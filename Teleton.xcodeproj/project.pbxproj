@@ -1,0 +1,848 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4342C5D71834E9580071743C /* PhonesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4342C5D51834E9580071743C /* PhonesController.m */; };
+		4342C5D81834E9580071743C /* PhonesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4342C5D61834E9580071743C /* PhonesController.xib */; };
+		439C48B81832B8E500B45A64 /* OtherWaysController.m in Sources */ = {isa = PBXBuildFile; fileRef = 439C48B61832B8E500B45A64 /* OtherWaysController.m */; };
+		439C48B91832B8E500B45A64 /* OtherWaysController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 439C48B71832B8E500B45A64 /* OtherWaysController.xib */; };
+		DC216BF2184CBC7700863F67 /* logo_header.png in Resources */ = {isa = PBXBuildFile; fileRef = DC216BEB184CBC7700863F67 /* logo_header.png */; };
+		DC216BF3184CBC7700863F67 /* globant_credits.png in Resources */ = {isa = PBXBuildFile; fileRef = DC216BEC184CBC7700863F67 /* globant_credits.png */; };
+		DC216BF4184CBC7700863F67 /* btn_donar.png in Resources */ = {isa = PBXBuildFile; fileRef = DC216BED184CBC7700863F67 /* btn_donar.png */; };
+		DC216BF5184CBC7700863F67 /* btn_teleton.png in Resources */ = {isa = PBXBuildFile; fileRef = DC216BEE184CBC7700863F67 /* btn_teleton.png */; };
+		DC216BF6184CBC7700863F67 /* btn_galeria.png in Resources */ = {isa = PBXBuildFile; fileRef = DC216BEF184CBC7700863F67 /* btn_galeria.png */; };
+		DC216BF7184CBC7700863F67 /* btn_contactos.png in Resources */ = {isa = PBXBuildFile; fileRef = DC216BF0184CBC7700863F67 /* btn_contactos.png */; };
+		DC216BF8184CBC7700863F67 /* background_home.png in Resources */ = {isa = PBXBuildFile; fileRef = DC216BF1184CBC7700863F67 /* background_home.png */; };
+		DC216BFB184CCA3100863F67 /* Diamond Girl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC216BFA184CCA3100863F67 /* Diamond Girl.ttf */; };
+		DC216BFE184CCB2300863F67 /* Diamond Girl Hollow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC216BFC184CCB2300863F67 /* Diamond Girl Hollow.ttf */; };
+		DC216BFF184CCB2300863F67 /* Diamond Girl Skinny.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC216BFD184CCB2300863F67 /* Diamond Girl Skinny.ttf */; };
+		DC216C01184CCB4700863F67 /* VAG Rounded Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC216C00184CCB4700863F67 /* VAG Rounded Bold.ttf */; };
+		DC216C08184CCD7300863F67 /* btn_otherWays.png in Resources */ = {isa = PBXBuildFile; fileRef = DC216C03184CCD7300863F67 /* btn_otherWays.png */; };
+		DC216C09184CCD7300863F67 /* btn_phone.png in Resources */ = {isa = PBXBuildFile; fileRef = DC216C04184CCD7300863F67 /* btn_phone.png */; };
+		DC216C0A184CCD7300863F67 /* btn_bits.png in Resources */ = {isa = PBXBuildFile; fileRef = DC216C05184CCD7300863F67 /* btn_bits.png */; };
+		DC216C0B184CCD7300863F67 /* btn_sms.png in Resources */ = {isa = PBXBuildFile; fileRef = DC216C06184CCD7300863F67 /* btn_sms.png */; };
+		DC216C0C184CCD7300863F67 /* btn_internet.png in Resources */ = {isa = PBXBuildFile; fileRef = DC216C07184CCD7300863F67 /* btn_internet.png */; };
+		DC2D88F718202B1B0034EEED /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2D88F618202B1B0034EEED /* UIView+Layout.m */; };
+		DC2D8912182033EF0034EEED /* iPad-Uruguay-2013.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2D8903182033EF0034EEED /* iPad-Uruguay-2013.png */; };
+		DC2D8913182033EF0034EEED /* iPhone-Contigo-Es-Posible.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2D8904182033EF0034EEED /* iPhone-Contigo-Es-Posible.png */; };
+		DC2D8919182037360034EEED /* Styles.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2D8918182037360034EEED /* Styles.m */; };
+		DC2D8923182070590034EEED /* MenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2D8922182070590034EEED /* MenuButton.m */; };
+		DC2D892618207E690034EEED /* CountdownView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2D892518207E690034EEED /* CountdownView.m */; };
+		DC6ACA5D1819929E00617E2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6ACA5C1819929E00617E2B /* Foundation.framework */; };
+		DC6ACA5F1819929E00617E2B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6ACA5E1819929E00617E2B /* CoreGraphics.framework */; };
+		DC6ACA611819929E00617E2B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6ACA601819929E00617E2B /* UIKit.framework */; };
+		DC6ACA671819929E00617E2B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC6ACA651819929E00617E2B /* InfoPlist.strings */; };
+		DC6ACA691819929E00617E2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6ACA681819929E00617E2B /* main.m */; };
+		DC6ACA92181993E900617E2B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6ACA90181993E900617E2B /* HomeViewController.m */; };
+		DC6ACA93181993E900617E2B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC6ACA91181993E900617E2B /* HomeViewController.xib */; };
+		DC6ACA961819941400617E2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6ACA951819941400617E2B /* AppDelegate.m */; };
+		DC6ACAA61819AC8C00617E2B /* MediaListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6ACAA41819AC8C00617E2B /* MediaListController.m */; };
+		DC6ACAA71819AC8C00617E2B /* MediaListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC6ACAA51819AC8C00617E2B /* MediaListController.xib */; };
+		DC6ACAAD1819ADD800617E2B /* PhotoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6ACAAC1819ADD800617E2B /* PhotoItem.m */; };
+		DC789B63184BD03000DA659F /* HomeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DC789B62184BD03000DA659F /* HomeButton.m */; };
+		DC7A982F1821C9BE00A8D334 /* PhotoDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7A982D1821C9BE00A8D334 /* PhotoDetailsController.m */; };
+		DC7A98301821C9BE00A8D334 /* PhotoDetailsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC7A982E1821C9BE00A8D334 /* PhotoDetailsController.xib */; };
+		DC8AC4BA18255F9500371FC1 /* MediaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8AC4B918255F9500371FC1 /* MediaCell.m */; };
+		DC8AC4CD1825890C00371FC1 /* UIDevice+Info.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8AC4CC1825890C00371FC1 /* UIDevice+Info.m */; };
+		DCA3D1811821D3E400B4CB27 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA3D1801821D3E400B4CB27 /* MediaPlayer.framework */; };
+		DCA6EB93182D39BC00CD5085 /* teleton_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCA6EB82182D39BC00CD5085 /* teleton_01.jpg */; };
+		DCA6EB94182D39BC00CD5085 /* teleton_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCA6EB83182D39BC00CD5085 /* teleton_02.jpg */; };
+		DCA6EB95182D39BC00CD5085 /* teleton_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCA6EB84182D39BC00CD5085 /* teleton_03.jpg */; };
+		DCA6EB96182D39BC00CD5085 /* teleton_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCA6EB85182D39BC00CD5085 /* teleton_04.jpg */; };
+		DCA6EB97182D39BC00CD5085 /* teleton_05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCA6EB86182D39BC00CD5085 /* teleton_05.jpg */; };
+		DCA6EB98182D39BC00CD5085 /* teleton_06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCA6EB87182D39BC00CD5085 /* teleton_06.jpg */; };
+		DCA6EB99182D39BC00CD5085 /* teleton_07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCA6EB88182D39BC00CD5085 /* teleton_07.jpg */; };
+		DCA6EB9A182D39BC00CD5085 /* teleton_08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCA6EB89182D39BC00CD5085 /* teleton_08.jpg */; };
+		DCA6EB9B182D39BC00CD5085 /* teleton_09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCA6EB8A182D39BC00CD5085 /* teleton_09.jpg */; };
+		DCA6EB9C182D39BC00CD5085 /* teleton_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCA6EB8B182D39BC00CD5085 /* teleton_10.jpg */; };
+		DCA6EB9D182D39BC00CD5085 /* teleton_11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCA6EB8C182D39BC00CD5085 /* teleton_11.jpg */; };
+		DCA6EB9E182D39BC00CD5085 /* teleton_12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCA6EB8D182D39BC00CD5085 /* teleton_12.jpg */; };
+		DCA6EB9F182D39BC00CD5085 /* teleton_13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCA6EB8E182D39BC00CD5085 /* teleton_13.jpg */; };
+		DCA6EBA0182D39BC00CD5085 /* teleton_14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCA6EB8F182D39BC00CD5085 /* teleton_14.jpg */; };
+		DCA6EBA1182D39BC00CD5085 /* teleton_15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCA6EB90182D39BC00CD5085 /* teleton_15.jpg */; };
+		DCA6EBA2182D39BC00CD5085 /* teleton_16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCA6EB91182D39BC00CD5085 /* teleton_16.jpg */; };
+		DCA6EBA3182D39BC00CD5085 /* teleton_17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCA6EB92182D39BC00CD5085 /* teleton_17.jpg */; };
+		DCAAA60F1819CD7400654FF0 /* DonateController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAAA60D1819CD7400654FF0 /* DonateController.m */; };
+		DCAAA6101819CD7400654FF0 /* DonateController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCAAA60E1819CD7400654FF0 /* DonateController.xib */; };
+		DCAAA6131819CF4600654FF0 /* Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAAA6121819CF4600654FF0 /* Facade.m */; };
+		DCAAA6171819D00600654FF0 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAAA6151819D00600654FF0 /* InfoViewController.m */; };
+		DCAAA6181819D00600654FF0 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCAAA6161819D00600654FF0 /* InfoViewController.xib */; };
+		DCAAA61C1819D38D00654FF0 /* TeletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAAA61A1819D38D00654FF0 /* TeletonViewController.m */; };
+		DCAAA61D1819D38D00654FF0 /* TeletonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCAAA61B1819D38D00654FF0 /* TeletonViewController.xib */; };
+		DCAAA61F1819D5C400654FF0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAAA61E1819D5C400654FF0 /* MessageUI.framework */; };
+		DCAAA6211819D69800654FF0 /* Teleton.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCAAA6201819D69800654FF0 /* Teleton.plist */; };
+		DCAAA6241819D6E600654FF0 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAAA6231819D6E600654FF0 /* Config.m */; };
+		DCAAA6301819F19000654FF0 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAAA62F1819F19000654FF0 /* UIImage+ImageEffects.m */; };
+		DCAAE51E181DE1FC0053B0CB /* TransparentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAAE51D181DE1FC0053B0CB /* TransparentButton.m */; };
+		DCAAE521181DF0A90053B0CB /* UIImage+Styles.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAAE520181DF0A90053B0CB /* UIImage+Styles.m */; };
+		DCB0E7F0184AA46F00429F0A /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCB0E7EF184AA46F00429F0A /* Background.jpg */; };
+		DCBD1779182A6B37000CAA22 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBD1778182A6B37000CAA22 /* NavigationController.m */; };
+		DCBD177E182A85CF000CAA22 /* ContactInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBD177D182A85CF000CAA22 /* ContactInfoCell.m */; };
+		DCBD1780182A85DB000CAA22 /* ContactInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCBD177F182A85DB000CAA22 /* ContactInfoCell.xib */; };
+		DCBD1783182A876F000CAA22 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBD1782182A876F000CAA22 /* Contact.m */; };
+		DCBFFD67182B115C001E745F /* TeletonAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBFFD66182B115C001E745F /* TeletonAlertView.m */; };
+		DCBFFD6A182BBB5C001E745F /* TeletonDoubleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBFFD69182BBB5C001E745F /* TeletonDoubleLabel.m */; };
+		DCEA197A182277D2004DAC1D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCEA1979182277D2004DAC1D /* Social.framework */; };
+		DCEA197D18227DA5004DAC1D /* SharingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEA197C18227DA5004DAC1D /* SharingViewController.m */; };
+		DCEA1980182282A2004DAC1D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEA197F182282A2004DAC1D /* BaseViewController.m */; };
+		DCEA19881822D9D3004DAC1D /* BounceAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEA19871822D9D3004DAC1D /* BounceAnimationController.m */; };
+		DCEA198B1822E0E7004DAC1D /* ShrinkAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEA198A1822E0E7004DAC1D /* ShrinkAnimationController.m */; };
+		DCEB4FFC18313510009E30F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCEB4FFB18313510009E30F8 /* Images.xcassets */; };
+		DCF95C62182E88B000B19A05 /* PhotoDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF95C61182E88B000B19A05 /* PhotoDetailCell.m */; };
+		DCFEDCF91833C66B0005E8F0 /* InfoHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFEDCF81833C66B0005E8F0 /* InfoHeaderView.m */; };
+		DCFEDCFB1833C7E80005E8F0 /* InfoHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCFEDCFA1833C7E80005E8F0 /* InfoHeaderView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4342C5D41834E9580071743C /* PhonesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhonesController.h; sourceTree = "<group>"; };
+		4342C5D51834E9580071743C /* PhonesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhonesController.m; sourceTree = "<group>"; };
+		4342C5D61834E9580071743C /* PhonesController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhonesController.xib; sourceTree = "<group>"; };
+		439C48B51832B8E500B45A64 /* OtherWaysController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherWaysController.h; sourceTree = "<group>"; };
+		439C48B61832B8E500B45A64 /* OtherWaysController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherWaysController.m; sourceTree = "<group>"; };
+		439C48B71832B8E500B45A64 /* OtherWaysController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherWaysController.xib; sourceTree = "<group>"; };
+		DC216BEB184CBC7700863F67 /* logo_header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_header.png; sourceTree = "<group>"; };
+		DC216BEC184CBC7700863F67 /* globant_credits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globant_credits.png; sourceTree = "<group>"; };
+		DC216BED184CBC7700863F67 /* btn_donar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_donar.png; sourceTree = "<group>"; };
+		DC216BEE184CBC7700863F67 /* btn_teleton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_teleton.png; sourceTree = "<group>"; };
+		DC216BEF184CBC7700863F67 /* btn_galeria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_galeria.png; sourceTree = "<group>"; };
+		DC216BF0184CBC7700863F67 /* btn_contactos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_contactos.png; sourceTree = "<group>"; };
+		DC216BF1184CBC7700863F67 /* background_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_home.png; sourceTree = "<group>"; };
+		DC216BFA184CCA3100863F67 /* Diamond Girl.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Diamond Girl.ttf"; sourceTree = "<group>"; };
+		DC216BFC184CCB2300863F67 /* Diamond Girl Hollow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Diamond Girl Hollow.ttf"; sourceTree = "<group>"; };
+		DC216BFD184CCB2300863F67 /* Diamond Girl Skinny.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Diamond Girl Skinny.ttf"; sourceTree = "<group>"; };
+		DC216C00184CCB4700863F67 /* VAG Rounded Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VAG Rounded Bold.ttf"; sourceTree = "<group>"; };
+		DC216C03184CCD7300863F67 /* btn_otherWays.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_otherWays.png; sourceTree = "<group>"; };
+		DC216C04184CCD7300863F67 /* btn_phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_phone.png; sourceTree = "<group>"; };
+		DC216C05184CCD7300863F67 /* btn_bits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_bits.png; sourceTree = "<group>"; };
+		DC216C06184CCD7300863F67 /* btn_sms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_sms.png; sourceTree = "<group>"; };
+		DC216C07184CCD7300863F67 /* btn_internet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_internet.png; sourceTree = "<group>"; };
+		DC2D88F518202B1B0034EEED /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		DC2D88F618202B1B0034EEED /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		DC2D8903182033EF0034EEED /* iPad-Uruguay-2013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad-Uruguay-2013.png"; sourceTree = "<group>"; };
+		DC2D8904182033EF0034EEED /* iPhone-Contigo-Es-Posible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone-Contigo-Es-Posible.png"; sourceTree = "<group>"; };
+		DC2D8917182037360034EEED /* Styles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Styles.h; sourceTree = "<group>"; };
+		DC2D8918182037360034EEED /* Styles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Styles.m; sourceTree = "<group>"; };
+		DC2D8921182070590034EEED /* MenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuButton.h; sourceTree = "<group>"; };
+		DC2D8922182070590034EEED /* MenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuButton.m; sourceTree = "<group>"; };
+		DC2D892418207E690034EEED /* CountdownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownView.h; sourceTree = "<group>"; };
+		DC2D892518207E690034EEED /* CountdownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownView.m; sourceTree = "<group>"; };
+		DC6ACA591819929E00617E2B /* Teleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6ACA5C1819929E00617E2B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC6ACA5E1819929E00617E2B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC6ACA601819929E00617E2B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC6ACA641819929E00617E2B /* Teleton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Teleton-Info.plist"; sourceTree = "<group>"; };
+		DC6ACA661819929E00617E2B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC6ACA681819929E00617E2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC6ACA6A1819929E00617E2B /* Teleton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Teleton-Prefix.pch"; sourceTree = "<group>"; };
+		DC6ACA751819929E00617E2B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DC6ACA8F181993E900617E2B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		DC6ACA90181993E900617E2B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		DC6ACA91181993E900617E2B /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		DC6ACA941819941400617E2B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC6ACA951819941400617E2B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC6ACAA31819AC8C00617E2B /* MediaListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaListController.h; sourceTree = "<group>"; };
+		DC6ACAA41819AC8C00617E2B /* MediaListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaListController.m; sourceTree = "<group>"; };
+		DC6ACAA51819AC8C00617E2B /* MediaListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaListController.xib; sourceTree = "<group>"; };
+		DC6ACAAB1819ADD800617E2B /* PhotoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoItem.h; sourceTree = "<group>"; };
+		DC6ACAAC1819ADD800617E2B /* PhotoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoItem.m; sourceTree = "<group>"; };
+		DC789B61184BD03000DA659F /* HomeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeButton.h; sourceTree = "<group>"; };
+		DC789B62184BD03000DA659F /* HomeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeButton.m; sourceTree = "<group>"; };
+		DC7A982C1821C9BE00A8D334 /* PhotoDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailsController.h; sourceTree = "<group>"; };
+		DC7A982D1821C9BE00A8D334 /* PhotoDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailsController.m; sourceTree = "<group>"; };
+		DC7A982E1821C9BE00A8D334 /* PhotoDetailsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoDetailsController.xib; sourceTree = "<group>"; };
+		DC8AC4B818255F9500371FC1 /* MediaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCell.h; sourceTree = "<group>"; };
+		DC8AC4B918255F9500371FC1 /* MediaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCell.m; sourceTree = "<group>"; };
+		DC8AC4CB1825890C00371FC1 /* UIDevice+Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Info.h"; sourceTree = "<group>"; };
+		DC8AC4CC1825890C00371FC1 /* UIDevice+Info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Info.m"; sourceTree = "<group>"; };
+		DCA3D1801821D3E400B4CB27 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DCA6EB82182D39BC00CD5085 /* teleton_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teleton_01.jpg; sourceTree = "<group>"; };
+		DCA6EB83182D39BC00CD5085 /* teleton_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teleton_02.jpg; sourceTree = "<group>"; };
+		DCA6EB84182D39BC00CD5085 /* teleton_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teleton_03.jpg; sourceTree = "<group>"; };
+		DCA6EB85182D39BC00CD5085 /* teleton_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teleton_04.jpg; sourceTree = "<group>"; };
+		DCA6EB86182D39BC00CD5085 /* teleton_05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teleton_05.jpg; sourceTree = "<group>"; };
+		DCA6EB87182D39BC00CD5085 /* teleton_06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teleton_06.jpg; sourceTree = "<group>"; };
+		DCA6EB88182D39BC00CD5085 /* teleton_07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teleton_07.jpg; sourceTree = "<group>"; };
+		DCA6EB89182D39BC00CD5085 /* teleton_08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teleton_08.jpg; sourceTree = "<group>"; };
+		DCA6EB8A182D39BC00CD5085 /* teleton_09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teleton_09.jpg; sourceTree = "<group>"; };
+		DCA6EB8B182D39BC00CD5085 /* teleton_10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teleton_10.jpg; sourceTree = "<group>"; };
+		DCA6EB8C182D39BC00CD5085 /* teleton_11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teleton_11.jpg; sourceTree = "<group>"; };
+		DCA6EB8D182D39BC00CD5085 /* teleton_12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teleton_12.jpg; sourceTree = "<group>"; };
+		DCA6EB8E182D39BC00CD5085 /* teleton_13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teleton_13.jpg; sourceTree = "<group>"; };
+		DCA6EB8F182D39BC00CD5085 /* teleton_14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teleton_14.jpg; sourceTree = "<group>"; };
+		DCA6EB90182D39BC00CD5085 /* teleton_15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teleton_15.jpg; sourceTree = "<group>"; };
+		DCA6EB91182D39BC00CD5085 /* teleton_16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teleton_16.jpg; sourceTree = "<group>"; };
+		DCA6EB92182D39BC00CD5085 /* teleton_17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teleton_17.jpg; sourceTree = "<group>"; };
+		DCAAA60C1819CD7400654FF0 /* DonateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonateController.h; sourceTree = "<group>"; };
+		DCAAA60D1819CD7400654FF0 /* DonateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonateController.m; sourceTree = "<group>"; };
+		DCAAA60E1819CD7400654FF0 /* DonateController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DonateController.xib; sourceTree = "<group>"; };
+		DCAAA6111819CF4600654FF0 /* Facade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facade.h; sourceTree = "<group>"; };
+		DCAAA6121819CF4600654FF0 /* Facade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facade.m; sourceTree = "<group>"; };
+		DCAAA6141819D00600654FF0 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		DCAAA6151819D00600654FF0 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		DCAAA6161819D00600654FF0 /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		DCAAA6191819D38D00654FF0 /* TeletonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeletonViewController.h; sourceTree = "<group>"; };
+		DCAAA61A1819D38D00654FF0 /* TeletonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeletonViewController.m; sourceTree = "<group>"; };
+		DCAAA61B1819D38D00654FF0 /* TeletonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeletonViewController.xib; sourceTree = "<group>"; };
+		DCAAA61E1819D5C400654FF0 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		DCAAA6201819D69800654FF0 /* Teleton.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Teleton.plist; sourceTree = "<group>"; };
+		DCAAA6221819D6E600654FF0 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		DCAAA6231819D6E600654FF0 /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
+		DCAAA62E1819F19000654FF0 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		DCAAA62F1819F19000654FF0 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		DCAAE51C181DE1FC0053B0CB /* TransparentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparentButton.h; sourceTree = "<group>"; };
+		DCAAE51D181DE1FC0053B0CB /* TransparentButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparentButton.m; sourceTree = "<group>"; };
+		DCAAE51F181DF0A90053B0CB /* UIImage+Styles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Styles.h"; sourceTree = "<group>"; };
+		DCAAE520181DF0A90053B0CB /* UIImage+Styles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Styles.m"; sourceTree = "<group>"; };
+		DCB0E7EF184AA46F00429F0A /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpg; sourceTree = "<group>"; };
+		DCBD1777182A6B37000CAA22 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		DCBD1778182A6B37000CAA22 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		DCBD177C182A85CF000CAA22 /* ContactInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactInfoCell.h; sourceTree = "<group>"; };
+		DCBD177D182A85CF000CAA22 /* ContactInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactInfoCell.m; sourceTree = "<group>"; };
+		DCBD177F182A85DB000CAA22 /* ContactInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactInfoCell.xib; sourceTree = "<group>"; };
+		DCBD1781182A876F000CAA22 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		DCBD1782182A876F000CAA22 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		DCBFFD65182B115C001E745F /* TeletonAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeletonAlertView.h; sourceTree = "<group>"; };
+		DCBFFD66182B115C001E745F /* TeletonAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeletonAlertView.m; sourceTree = "<group>"; };
+		DCBFFD68182BBB5C001E745F /* TeletonDoubleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeletonDoubleLabel.h; sourceTree = "<group>"; };
+		DCBFFD69182BBB5C001E745F /* TeletonDoubleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeletonDoubleLabel.m; sourceTree = "<group>"; };
+		DCEA1979182277D2004DAC1D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		DCEA197B18227DA5004DAC1D /* SharingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharingViewController.h; sourceTree = "<group>"; };
+		DCEA197C18227DA5004DAC1D /* SharingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharingViewController.m; sourceTree = "<group>"; };
+		DCEA197E182282A2004DAC1D /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		DCEA197F182282A2004DAC1D /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		DCEA19861822D9D3004DAC1D /* BounceAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BounceAnimationController.h; sourceTree = "<group>"; };
+		DCEA19871822D9D3004DAC1D /* BounceAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BounceAnimationController.m; sourceTree = "<group>"; };
+		DCEA19891822E0E7004DAC1D /* ShrinkAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShrinkAnimationController.h; sourceTree = "<group>"; };
+		DCEA198A1822E0E7004DAC1D /* ShrinkAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShrinkAnimationController.m; sourceTree = "<group>"; };
+		DCEB4FFB18313510009E30F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DCF95C60182E88B000B19A05 /* PhotoDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailCell.h; sourceTree = "<group>"; };
+		DCF95C61182E88B000B19A05 /* PhotoDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailCell.m; sourceTree = "<group>"; };
+		DCFEDCF71833C66B0005E8F0 /* InfoHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoHeaderView.h; sourceTree = "<group>"; };
+		DCFEDCF81833C66B0005E8F0 /* InfoHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoHeaderView.m; sourceTree = "<group>"; };
+		DCFEDCFA1833C7E80005E8F0 /* InfoHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoHeaderView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC6ACA561819929E00617E2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEA197A182277D2004DAC1D /* Social.framework in Frameworks */,
+				DCA3D1811821D3E400B4CB27 /* MediaPlayer.framework in Frameworks */,
+				DCAAA61F1819D5C400654FF0 /* MessageUI.framework in Frameworks */,
+				DC6ACA5F1819929E00617E2B /* CoreGraphics.framework in Frameworks */,
+				DC6ACA611819929E00617E2B /* UIKit.framework in Frameworks */,
+				DC6ACA5D1819929E00617E2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC216BEA184CBC6600863F67 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DC216BEB184CBC7700863F67 /* logo_header.png */,
+				DC216BEC184CBC7700863F67 /* globant_credits.png */,
+				DC216BED184CBC7700863F67 /* btn_donar.png */,
+				DC216BEE184CBC7700863F67 /* btn_teleton.png */,
+				DC216BEF184CBC7700863F67 /* btn_galeria.png */,
+				DC216BF0184CBC7700863F67 /* btn_contactos.png */,
+				DC216BF1184CBC7700863F67 /* background_home.png */,
+				DC2D8903182033EF0034EEED /* iPad-Uruguay-2013.png */,
+				DC2D8904182033EF0034EEED /* iPhone-Contigo-Es-Posible.png */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		DC216BF9184CCA1D00863F67 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DC216C00184CCB4700863F67 /* VAG Rounded Bold.ttf */,
+				DC216BFC184CCB2300863F67 /* Diamond Girl Hollow.ttf */,
+				DC216BFD184CCB2300863F67 /* Diamond Girl Skinny.ttf */,
+				DC216BFA184CCA3100863F67 /* Diamond Girl.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DC216C02184CCD6500863F67 /* Donate */ = {
+			isa = PBXGroup;
+			children = (
+				DC216C03184CCD7300863F67 /* btn_otherWays.png */,
+				DC216C04184CCD7300863F67 /* btn_phone.png */,
+				DC216C05184CCD7300863F67 /* btn_bits.png */,
+				DC216C06184CCD7300863F67 /* btn_sms.png */,
+				DC216C07184CCD7300863F67 /* btn_internet.png */,
+			);
+			name = Donate;
+			sourceTree = "<group>";
+		};
+		DC6ACA501819929E00617E2B = {
+			isa = PBXGroup;
+			children = (
+				DC6ACA621819929E00617E2B /* Teleton */,
+				DC6ACA5B1819929E00617E2B /* Frameworks */,
+				DC6ACA5A1819929E00617E2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC6ACA5A1819929E00617E2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC6ACA591819929E00617E2B /* Teleton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC6ACA5B1819929E00617E2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCEA1979182277D2004DAC1D /* Social.framework */,
+				DCA3D1801821D3E400B4CB27 /* MediaPlayer.framework */,
+				DCAAA61E1819D5C400654FF0 /* MessageUI.framework */,
+				DC6ACA5C1819929E00617E2B /* Foundation.framework */,
+				DC6ACA5E1819929E00617E2B /* CoreGraphics.framework */,
+				DC6ACA601819929E00617E2B /* UIKit.framework */,
+				DC6ACA751819929E00617E2B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC6ACA621819929E00617E2B /* Teleton */ = {
+			isa = PBXGroup;
+			children = (
+				DC6ACAAE1819B10C00617E2B /* Resources */,
+				DC6ACA8B1819937E00617E2B /* Classes */,
+				DCEB4FFB18313510009E30F8 /* Images.xcassets */,
+				DC6ACA631819929E00617E2B /* Supporting Files */,
+			);
+			path = Teleton;
+			sourceTree = "<group>";
+		};
+		DC6ACA631819929E00617E2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC6ACA641819929E00617E2B /* Teleton-Info.plist */,
+				DC6ACA651819929E00617E2B /* InfoPlist.strings */,
+				DC6ACA681819929E00617E2B /* main.m */,
+				DC6ACA6A1819929E00617E2B /* Teleton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC6ACA8B1819937E00617E2B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DC6ACA941819941400617E2B /* AppDelegate.h */,
+				DC6ACA951819941400617E2B /* AppDelegate.m */,
+				DCEA19851822D990004DAC1D /* Animations */,
+				DCAAA62D1819F16400654FF0 /* Extensions */,
+				DC6ACA8D1819939D00617E2B /* Model */,
+				DC6ACA8E181993B000617E2B /* Views */,
+				DC6ACA8C1819938F00617E2B /* Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DC6ACA8C1819938F00617E2B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DC8AC4BF1825698800371FC1 /* Generic */,
+				DC8AC4C01825699400371FC1 /* Home */,
+				DC8AC4C1182569BA00371FC1 /* Donate */,
+				DC8AC4BE182568ED00371FC1 /* Multimedia */,
+				DCBFFD64182B09E5001E745F /* Teleton */,
+				DCBFFD63182B09DE001E745F /* Info */,
+				DC8AC4C218256B3C00371FC1 /* Modal */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DC6ACA8D1819939D00617E2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC6ACAAB1819ADD800617E2B /* PhotoItem.h */,
+				DC6ACAAC1819ADD800617E2B /* PhotoItem.m */,
+				DCAAA6111819CF4600654FF0 /* Facade.h */,
+				DCAAA6121819CF4600654FF0 /* Facade.m */,
+				DCAAA6221819D6E600654FF0 /* Config.h */,
+				DCAAA6231819D6E600654FF0 /* Config.m */,
+				DC2D8917182037360034EEED /* Styles.h */,
+				DC2D8918182037360034EEED /* Styles.m */,
+				DCBD1781182A876F000CAA22 /* Contact.h */,
+				DCBD1782182A876F000CAA22 /* Contact.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC6ACA8E181993B000617E2B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCAAE51C181DE1FC0053B0CB /* TransparentButton.h */,
+				DCAAE51D181DE1FC0053B0CB /* TransparentButton.m */,
+				DC2D8921182070590034EEED /* MenuButton.h */,
+				DC2D8922182070590034EEED /* MenuButton.m */,
+				DC2D892418207E690034EEED /* CountdownView.h */,
+				DC2D892518207E690034EEED /* CountdownView.m */,
+				DC8AC4B818255F9500371FC1 /* MediaCell.h */,
+				DC8AC4B918255F9500371FC1 /* MediaCell.m */,
+				DCBD177C182A85CF000CAA22 /* ContactInfoCell.h */,
+				DCBD177D182A85CF000CAA22 /* ContactInfoCell.m */,
+				DCBD177F182A85DB000CAA22 /* ContactInfoCell.xib */,
+				DCBFFD65182B115C001E745F /* TeletonAlertView.h */,
+				DCBFFD66182B115C001E745F /* TeletonAlertView.m */,
+				DCBFFD68182BBB5C001E745F /* TeletonDoubleLabel.h */,
+				DCBFFD69182BBB5C001E745F /* TeletonDoubleLabel.m */,
+				DCF95C60182E88B000B19A05 /* PhotoDetailCell.h */,
+				DCF95C61182E88B000B19A05 /* PhotoDetailCell.m */,
+				DCFEDCF71833C66B0005E8F0 /* InfoHeaderView.h */,
+				DCFEDCF81833C66B0005E8F0 /* InfoHeaderView.m */,
+				DCFEDCFA1833C7E80005E8F0 /* InfoHeaderView.xib */,
+				DC789B61184BD03000DA659F /* HomeButton.h */,
+				DC789B62184BD03000DA659F /* HomeButton.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DC6ACAAE1819B10C00617E2B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC216BF9184CCA1D00863F67 /* Fonts */,
+				DCAAA6201819D69800654FF0 /* Teleton.plist */,
+				DC6ACAAF1819B12100617E2B /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DC6ACAAF1819B12100617E2B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DC216C02184CCD6500863F67 /* Donate */,
+				DC216BEA184CBC6600863F67 /* Home */,
+				DCB0E7EF184AA46F00429F0A /* Background.jpg */,
+				DCA6EB81182D399E00CD5085 /* Photos */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		DC8AC4BE182568ED00371FC1 /* Multimedia */ = {
+			isa = PBXGroup;
+			children = (
+				DC6ACAA31819AC8C00617E2B /* MediaListController.h */,
+				DC6ACAA41819AC8C00617E2B /* MediaListController.m */,
+				DC6ACAA51819AC8C00617E2B /* MediaListController.xib */,
+				DC7A982C1821C9BE00A8D334 /* PhotoDetailsController.h */,
+				DC7A982D1821C9BE00A8D334 /* PhotoDetailsController.m */,
+				DC7A982E1821C9BE00A8D334 /* PhotoDetailsController.xib */,
+			);
+			name = Multimedia;
+			sourceTree = "<group>";
+		};
+		DC8AC4BF1825698800371FC1 /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				DCEA197E182282A2004DAC1D /* BaseViewController.h */,
+				DCEA197F182282A2004DAC1D /* BaseViewController.m */,
+				DCBD1777182A6B37000CAA22 /* NavigationController.h */,
+				DCBD1778182A6B37000CAA22 /* NavigationController.m */,
+			);
+			name = Generic;
+			sourceTree = "<group>";
+		};
+		DC8AC4C01825699400371FC1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DC6ACA8F181993E900617E2B /* HomeViewController.h */,
+				DC6ACA90181993E900617E2B /* HomeViewController.m */,
+				DC6ACA91181993E900617E2B /* HomeViewController.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		DC8AC4C1182569BA00371FC1 /* Donate */ = {
+			isa = PBXGroup;
+			children = (
+				4342C5D41834E9580071743C /* PhonesController.h */,
+				4342C5D51834E9580071743C /* PhonesController.m */,
+				4342C5D61834E9580071743C /* PhonesController.xib */,
+				439C48B51832B8E500B45A64 /* OtherWaysController.h */,
+				439C48B61832B8E500B45A64 /* OtherWaysController.m */,
+				439C48B71832B8E500B45A64 /* OtherWaysController.xib */,
+				DCAAA60C1819CD7400654FF0 /* DonateController.h */,
+				DCAAA60D1819CD7400654FF0 /* DonateController.m */,
+				DCAAA60E1819CD7400654FF0 /* DonateController.xib */,
+			);
+			name = Donate;
+			sourceTree = "<group>";
+		};
+		DC8AC4C218256B3C00371FC1 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				DCEA197B18227DA5004DAC1D /* SharingViewController.h */,
+				DCEA197C18227DA5004DAC1D /* SharingViewController.m */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		DCA6EB81182D399E00CD5085 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				DCA6EB82182D39BC00CD5085 /* teleton_01.jpg */,
+				DCA6EB83182D39BC00CD5085 /* teleton_02.jpg */,
+				DCA6EB84182D39BC00CD5085 /* teleton_03.jpg */,
+				DCA6EB85182D39BC00CD5085 /* teleton_04.jpg */,
+				DCA6EB86182D39BC00CD5085 /* teleton_05.jpg */,
+				DCA6EB87182D39BC00CD5085 /* teleton_06.jpg */,
+				DCA6EB88182D39BC00CD5085 /* teleton_07.jpg */,
+				DCA6EB89182D39BC00CD5085 /* teleton_08.jpg */,
+				DCA6EB8A182D39BC00CD5085 /* teleton_09.jpg */,
+				DCA6EB8B182D39BC00CD5085 /* teleton_10.jpg */,
+				DCA6EB8C182D39BC00CD5085 /* teleton_11.jpg */,
+				DCA6EB8D182D39BC00CD5085 /* teleton_12.jpg */,
+				DCA6EB8E182D39BC00CD5085 /* teleton_13.jpg */,
+				DCA6EB8F182D39BC00CD5085 /* teleton_14.jpg */,
+				DCA6EB90182D39BC00CD5085 /* teleton_15.jpg */,
+				DCA6EB91182D39BC00CD5085 /* teleton_16.jpg */,
+				DCA6EB92182D39BC00CD5085 /* teleton_17.jpg */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		DCAAA62D1819F16400654FF0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DCAAA62E1819F19000654FF0 /* UIImage+ImageEffects.h */,
+				DCAAA62F1819F19000654FF0 /* UIImage+ImageEffects.m */,
+				DCAAE51F181DF0A90053B0CB /* UIImage+Styles.h */,
+				DCAAE520181DF0A90053B0CB /* UIImage+Styles.m */,
+				DC2D88F518202B1B0034EEED /* UIView+Layout.h */,
+				DC2D88F618202B1B0034EEED /* UIView+Layout.m */,
+				DC8AC4CB1825890C00371FC1 /* UIDevice+Info.h */,
+				DC8AC4CC1825890C00371FC1 /* UIDevice+Info.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DCBFFD63182B09DE001E745F /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				DCAAA6141819D00600654FF0 /* InfoViewController.h */,
+				DCAAA6151819D00600654FF0 /* InfoViewController.m */,
+				DCAAA6161819D00600654FF0 /* InfoViewController.xib */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		DCBFFD64182B09E5001E745F /* Teleton */ = {
+			isa = PBXGroup;
+			children = (
+				DCAAA6191819D38D00654FF0 /* TeletonViewController.h */,
+				DCAAA61A1819D38D00654FF0 /* TeletonViewController.m */,
+				DCAAA61B1819D38D00654FF0 /* TeletonViewController.xib */,
+			);
+			name = Teleton;
+			sourceTree = "<group>";
+		};
+		DCEA19851822D990004DAC1D /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				DCEA19861822D9D3004DAC1D /* BounceAnimationController.h */,
+				DCEA19871822D9D3004DAC1D /* BounceAnimationController.m */,
+				DCEA19891822E0E7004DAC1D /* ShrinkAnimationController.h */,
+				DCEA198A1822E0E7004DAC1D /* ShrinkAnimationController.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC6ACA581819929E00617E2B /* Teleton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC6ACA851819929E00617E2B /* Build configuration list for PBXNativeTarget "Teleton" */;
+			buildPhases = (
+				DC6ACA551819929E00617E2B /* Sources */,
+				DC6ACA561819929E00617E2B /* Frameworks */,
+				DC6ACA571819929E00617E2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Teleton;
+			productName = Teleton;
+			productReference = DC6ACA591819929E00617E2B /* Teleton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC6ACA511819929E00617E2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Javi;
+			};
+			buildConfigurationList = DC6ACA541819929E00617E2B /* Build configuration list for PBXProject "Teleton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC6ACA501819929E00617E2B;
+			productRefGroup = DC6ACA5A1819929E00617E2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC6ACA581819929E00617E2B /* Teleton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC6ACA571819929E00617E2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA6EB98182D39BC00CD5085 /* teleton_06.jpg in Resources */,
+				DC6ACA671819929E00617E2B /* InfoPlist.strings in Resources */,
+				DCA6EB9B182D39BC00CD5085 /* teleton_09.jpg in Resources */,
+				DCFEDCFB1833C7E80005E8F0 /* InfoHeaderView.xib in Resources */,
+				DCBD1780182A85DB000CAA22 /* ContactInfoCell.xib in Resources */,
+				DCEB4FFC18313510009E30F8 /* Images.xcassets in Resources */,
+				DC216BF2184CBC7700863F67 /* logo_header.png in Resources */,
+				DC216C09184CCD7300863F67 /* btn_phone.png in Resources */,
+				DCAAA6211819D69800654FF0 /* Teleton.plist in Resources */,
+				DC216C08184CCD7300863F67 /* btn_otherWays.png in Resources */,
+				DC216BF5184CBC7700863F67 /* btn_teleton.png in Resources */,
+				DC6ACAA71819AC8C00617E2B /* MediaListController.xib in Resources */,
+				DC216BF8184CBC7700863F67 /* background_home.png in Resources */,
+				DCA6EB9C182D39BC00CD5085 /* teleton_10.jpg in Resources */,
+				DC216C0A184CCD7300863F67 /* btn_bits.png in Resources */,
+				DC2D8912182033EF0034EEED /* iPad-Uruguay-2013.png in Resources */,
+				DC216BFF184CCB2300863F67 /* Diamond Girl Skinny.ttf in Resources */,
+				DCA6EB95182D39BC00CD5085 /* teleton_03.jpg in Resources */,
+				DCA6EBA1182D39BC00CD5085 /* teleton_15.jpg in Resources */,
+				DCA6EB9F182D39BC00CD5085 /* teleton_13.jpg in Resources */,
+				DC216BFB184CCA3100863F67 /* Diamond Girl.ttf in Resources */,
+				DC216BF7184CBC7700863F67 /* btn_contactos.png in Resources */,
+				DC7A98301821C9BE00A8D334 /* PhotoDetailsController.xib in Resources */,
+				DCA6EBA0182D39BC00CD5085 /* teleton_14.jpg in Resources */,
+				DCAAA61D1819D38D00654FF0 /* TeletonViewController.xib in Resources */,
+				439C48B91832B8E500B45A64 /* OtherWaysController.xib in Resources */,
+				DCA6EB96182D39BC00CD5085 /* teleton_04.jpg in Resources */,
+				DC216C01184CCB4700863F67 /* VAG Rounded Bold.ttf in Resources */,
+				DCA6EB93182D39BC00CD5085 /* teleton_01.jpg in Resources */,
+				DC216BF6184CBC7700863F67 /* btn_galeria.png in Resources */,
+				DCAAA6101819CD7400654FF0 /* DonateController.xib in Resources */,
+				DC216BF4184CBC7700863F67 /* btn_donar.png in Resources */,
+				DC2D8913182033EF0034EEED /* iPhone-Contigo-Es-Posible.png in Resources */,
+				DCA6EB99182D39BC00CD5085 /* teleton_07.jpg in Resources */,
+				DCA6EB9E182D39BC00CD5085 /* teleton_12.jpg in Resources */,
+				DCA6EB94182D39BC00CD5085 /* teleton_02.jpg in Resources */,
+				DC216C0B184CCD7300863F67 /* btn_sms.png in Resources */,
+				DC6ACA93181993E900617E2B /* HomeViewController.xib in Resources */,
+				DCB0E7F0184AA46F00429F0A /* Background.jpg in Resources */,
+				DCAAA6181819D00600654FF0 /* InfoViewController.xib in Resources */,
+				DC216C0C184CCD7300863F67 /* btn_internet.png in Resources */,
+				4342C5D81834E9580071743C /* PhonesController.xib in Resources */,
+				DC216BF3184CBC7700863F67 /* globant_credits.png in Resources */,
+				DCA6EBA3182D39BC00CD5085 /* teleton_17.jpg in Resources */,
+				DCA6EB9A182D39BC00CD5085 /* teleton_08.jpg in Resources */,
+				DCA6EB97182D39BC00CD5085 /* teleton_05.jpg in Resources */,
+				DCA6EB9D182D39BC00CD5085 /* teleton_11.jpg in Resources */,
+				DC216BFE184CCB2300863F67 /* Diamond Girl Hollow.ttf in Resources */,
+				DCA6EBA2182D39BC00CD5085 /* teleton_16.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC6ACA551819929E00617E2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAAA6301819F19000654FF0 /* UIImage+ImageEffects.m in Sources */,
+				DCF95C62182E88B000B19A05 /* PhotoDetailCell.m in Sources */,
+				DCEA1980182282A2004DAC1D /* BaseViewController.m in Sources */,
+				DC2D8923182070590034EEED /* MenuButton.m in Sources */,
+				DCAAA60F1819CD7400654FF0 /* DonateController.m in Sources */,
+				DCEA198B1822E0E7004DAC1D /* ShrinkAnimationController.m in Sources */,
+				DCBFFD6A182BBB5C001E745F /* TeletonDoubleLabel.m in Sources */,
+				DCFEDCF91833C66B0005E8F0 /* InfoHeaderView.m in Sources */,
+				DC8AC4CD1825890C00371FC1 /* UIDevice+Info.m in Sources */,
+				439C48B81832B8E500B45A64 /* OtherWaysController.m in Sources */,
+				DC6ACAAD1819ADD800617E2B /* PhotoItem.m in Sources */,
+				DCAAE521181DF0A90053B0CB /* UIImage+Styles.m in Sources */,
+				DC6ACAA61819AC8C00617E2B /* MediaListController.m in Sources */,
+				DC6ACA691819929E00617E2B /* main.m in Sources */,
+				DC2D88F718202B1B0034EEED /* UIView+Layout.m in Sources */,
+				DCBD1779182A6B37000CAA22 /* NavigationController.m in Sources */,
+				DC2D8919182037360034EEED /* Styles.m in Sources */,
+				DC7A982F1821C9BE00A8D334 /* PhotoDetailsController.m in Sources */,
+				DCBFFD67182B115C001E745F /* TeletonAlertView.m in Sources */,
+				DC8AC4BA18255F9500371FC1 /* MediaCell.m in Sources */,
+				DCAAA6171819D00600654FF0 /* InfoViewController.m in Sources */,
+				4342C5D71834E9580071743C /* PhonesController.m in Sources */,
+				DCBD177E182A85CF000CAA22 /* ContactInfoCell.m in Sources */,
+				DCAAA61C1819D38D00654FF0 /* TeletonViewController.m in Sources */,
+				DCAAA6131819CF4600654FF0 /* Facade.m in Sources */,
+				DCAAA6241819D6E600654FF0 /* Config.m in Sources */,
+				DCBD1783182A876F000CAA22 /* Contact.m in Sources */,
+				DC6ACA92181993E900617E2B /* HomeViewController.m in Sources */,
+				DC2D892618207E690034EEED /* CountdownView.m in Sources */,
+				DC6ACA961819941400617E2B /* AppDelegate.m in Sources */,
+				DC789B63184BD03000DA659F /* HomeButton.m in Sources */,
+				DCAAE51E181DE1FC0053B0CB /* TransparentButton.m in Sources */,
+				DCEA197D18227DA5004DAC1D /* SharingViewController.m in Sources */,
+				DCEA19881822D9D3004DAC1D /* BounceAnimationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC6ACA651819929E00617E2B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC6ACA661819929E00617E2B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC6ACA831819929E00617E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DC6ACA841819929E00617E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC6ACA861819929E00617E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Teleton/Teleton-Prefix.pch";
+				INFOPLIST_FILE = "Teleton/Teleton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC6ACA871819929E00617E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Teleton/Teleton-Prefix.pch";
+				INFOPLIST_FILE = "Teleton/Teleton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC6ACA541819929E00617E2B /* Build configuration list for PBXProject "Teleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6ACA831819929E00617E2B /* Debug */,
+				DC6ACA841819929E00617E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC6ACA851819929E00617E2B /* Build configuration list for PBXNativeTarget "Teleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6ACA861819929E00617E2B /* Debug */,
+				DC6ACA871819929E00617E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC6ACA511819929E00617E2B /* Project object */;
+}

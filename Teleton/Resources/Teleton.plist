@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TextNumber</key>
+	<string>7857</string>
+	<key>BitsNumber</key>
+	<string>248</string>
+	<key>CallNumbers</key>
+	<dict>
+		<key>30</key>
+		<string>09009930</string>
+		<key>50</key>
+		<string>09009950</string>
+		<key>70</key>
+		<string>09009970</string>
+		<key>150</key>
+		<string>09009150</string>
+		<key>500</key>
+		<string>09009500</string>
+		<key>900</key>
+		<string>09009900</string>
+	</dict>
+	<key>WebsiteURL</key>
+	<string>http://teleton.org.uy</string>
+	<key>SistarbancURL</key>
+	<string>https://spf.sistarbanc.com.uy/spfe/Teleton.jsp</string>
+	<key>ShareMessage</key>
+	<string>Descarga la aplicación de la Teletón desde:</string>
+	<key>ShareURL</key>
+	<string>http://teleton.org.uy</string>
+	<key>BitsAmounts</key>
+	<array>
+		<string>100</string>
+		<string>200</string>
+		<string>300</string>
+	</array>
+</dict>
+</plist>
